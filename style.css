@@ -1,0 +1,29 @@
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    margin: 0; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+header nav ul li {
+    margin-left: 15px; 
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
